@@ -121,8 +121,10 @@ npm install
 ```bash
 npm start
 ```
-##The app will start at:
+### The app will start at:
+```bash
 http://localhost:3000
+```
 
 4️⃣ Build for Production
 ```bash
