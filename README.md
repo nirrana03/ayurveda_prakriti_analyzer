@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+🌿 Ayurveda Prakriti Analyzer
+A beautifully designed React.js web application inspired by Ayurveda — the ancient Indian science of life and holistic wellness.
+This project helps users explore Ayurvedic principles like the Five Elements (Pancha Mahabhutas) and Three Doshas (Vata, Pitta, Kapha).
+It also features an interactive quiz to determine a user’s dominant Prakriti (body constitution).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The app uses React, CSS, and Framer Motion to create a modern, responsive, and visually calming experience.
 
-## Available Scripts
+✨ Features
+🪶 Home Page – introduces Ayurveda and Doshas in a scrollable format
+🌿 Ayurveda Section – explains the Five Elements with animations and smooth transitions
+🔥 Doshas Section – detailed, zig-zag layout showing Vata, Pitta, and Kapha with motion effects
+🎮 Interactive Quiz – users answer questions to find their dominant Prakriti
+🧘 Result Page – beautifully animated explanation with color-coded feedback
+📱 Responsive Design – adapts seamlessly to mobile, tablet, and desktop
+💫 Framer Motion Animations – smooth fade, slide, and pop-in transitions for natural flow
 
-In the project directory, you can run:
+🧩 Tech Stack
+Category	Tools Used
+Frontend	React.js
+Styling	CSS3 with custom Ayurvedic color palette
+Animations	Framer Motion
+Routing	React Router DOM
+Smooth Scrolling	React Scroll
+⚙️ Installation Steps
 
-### `npm start`
+Follow these steps to set up and run the project locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone this repository
+git clone https://github.com/yourusername/ayurveda-prakriti-analyzer.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Navigate into the project directory
+cd ayurveda-prakriti-analyzer
 
-### `npm test`
+Install all dependencies
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make sure Node.js and npm are already installed on your system.
 
-### `npm run build`
+🚀 How to Run the Project
+Start the development server
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open your browser and visit:
+http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Your Ayurveda Prakriti Analyzer website will start running locally 🎉
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧘 Project Structure
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── AyurvedaSection.jsx
+│   ├── DoshasSection.jsx
+│   ├── PrakritiCard.jsx
+│   └── ...
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Quiz.jsx
+│   ├── Result.jsx
+│   ├── Ayurveda.jsx
+│   └── Doshas.jsx
+├── App.js
+├── index.js
+└── App.css
 
-### `npm run eject`
+🎨 Color Palette
+Element	Color	Meaning
+Earth	#e8f5e9	Stability and calm
+Fire	#ffe0b2	Energy and transformation
+Air	#e0f7fa	Movement and creativity
+Accent Green	#4a752c	Nature and harmony
+Golden Amber	#ffb300	Vitality and warmth
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+These soothing pastel tones bring balance and authenticity to the Ayurvedic theme.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📜 Description
+Ayurveda Prakriti Analyzer is a modern web application built to spread awareness of Ayurvedic lifestyle principles through interactive design.
+It integrates education and engagement — allowing users to both learn about Ayurveda and discover their Prakriti type based on physical, mental, and behavioral attributes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+It’s an ideal project for showcasing:
+UI/UX design using color psychology
+React component structuring
+Integration of animations for storytelling
+Thematic web development with cultural inspiration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+💻 Features Overview
+Feature	Description
+Home Page	Animated introduction to Ayurveda
+Ayurveda Section	Explains Five Elements (Pancha Mahabhutas)
+Doshas Section	Highlights Vata, Pitta, and Kapha with images
+Quiz Page	Interactive MCQs for Prakriti prediction
+Result Page	Animated result display with dosha analysis
+Responsive Design	Works perfectly on all screen sizes
 
-## Learn More
+🌸 Animation Effects
+Framer Motion for:
+Fade-in and slide transitions
+Scale pop effects on hover
+Staggered entrance animations for cards and sections
+Smooth scroll navigation between home sections
+Hover glow effects for Ayurvedic cards
+These animations ensure that the user experience feels natural and immersive, reflecting Ayurveda’s harmony and flow.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👩‍💻 Developer Notes
+This project is fully modular: Ayurveda and Doshas sections are reusable React components.
+Each section includes scroll-based animations using Framer Motion’s whileInView.
+Colors and design choices follow a warm, earthy, and spiritual theme aligned with Ayurveda.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📄 Credits
 
-### Code Splitting
+Developed by Nirali Rana
+Guided by the timeless wisdom of Ayurveda and designed to blend traditional knowledge with modern web technology.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🕉️ License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and available under the MIT License.
+You are free to use, modify, and distribute it for learning or development purposes.
