@@ -1,0 +1,96 @@
+.doshas-page {
+  width: 100%;
+  overflow-x: hidden;
+  background: linear-gradient(180deg, #fffdf6, #fff8ea);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Intro Section */
+.dosha-intro {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.dosha-intro h1 {
+  font-size: 2.8rem;
+  color: #4a752c;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1rem;
+}
+
+.dosha-intro p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* Each Dosha Section */
+.dosha-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 3rem;
+  width: 100%;
+  min-height: 500px;
+}
+
+.dosha-section.left {
+  flex-direction: row;
+}
+
+.dosha-section.right {
+  flex-direction: row-reverse;
+}
+
+.dosha-image {
+  flex: 1;
+  text-align: center;
+}
+
+.dosha-image img {
+  width: 85%;
+  max-width: 550px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease;
+}
+
+.dosha-image img:hover {
+  transform: scale(1.05);
+}
+
+.dosha-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.dosha-content h2 {
+  font-size: 2rem;
+  color: #3e2723;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
+}
+
+.dosha-content p {
+  font-size: 1.15rem;
+  color: #333;
+  line-height: 1.9;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .dosha-section {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .dosha-content {
+    padding: 1rem 0;
+  }
+
+  .dosha-image img {
+    width: 95%;
+  }
+}

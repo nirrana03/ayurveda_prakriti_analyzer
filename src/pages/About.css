@@ -1,0 +1,146 @@
+.ayurveda-page {
+  width: 100%;
+  background: linear-gradient(180deg, #fffdf6, #fef5e4, #f9f1f1);
+  color: #333;
+  padding: 3rem 2rem;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Intro Section */
+.intro-section {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 4rem auto;
+}
+
+.intro-section h1 {
+  font-size: 2.8rem;
+  color: #4a752c;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
+}
+
+.intro-section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Elements Section */
+.elements-section {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.elements-section h2 {
+  font-size: 2.3rem;
+  color: #8b6f43;
+  margin-bottom: 1rem;
+}
+
+.elements-section .desc {
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.element-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.element-card {
+  border-radius: 18px;
+  padding: 2rem;
+  width: 280px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
+.element-card h3 {
+  font-size: 1.3rem;
+  color: #2e2e2e;
+  margin-bottom: 0.6rem;
+}
+
+.element-card p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Connection Section */
+.connection-section {
+  text-align: center;
+  background: linear-gradient(90deg, #f5ffe1, #fff8e7);
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  margin-top: 4rem;
+}
+
+.connection-section h2 {
+  font-size: 2.2rem;
+  color: #7b5e2e;
+  margin-bottom: 1rem;
+}
+
+.connection-section ul {
+  text-align: left;
+  max-width: 700px;
+  margin: 1.5rem auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #3f3f3f;
+}
+
+.connection-section li strong {
+  color: #4caf50;
+}
+
+/* Closing Section */
+.closing-section {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.closing-section h2 {
+  font-size: 2rem;
+  color: #6b4d1f;
+  margin-bottom: 1rem;
+}
+
+.closing-section p {
+  font-size: 1.2rem;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Animation glow */
+.element-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .element-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .element-card {
+    width: 90%;
+  }
+
+  .intro-section h1 {
+    font-size: 2.2rem;
+  }
+}
