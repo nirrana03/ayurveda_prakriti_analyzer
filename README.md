@@ -91,14 +91,14 @@ http://localhost:3000
 npm run build
 
 Future Enhancements
-| **Feature**               | **Description**                                       |
-| ------------------------- | ----------------------------------------------------- |
-| 🪷 Personalized Tips      | Lifestyle, food, and yoga suggestions for each dosha. |
-| 🧾 Downloadable Plan      | Export user’s wellness summary as a PDF.              |
-| 📊 Dosha Balance Chart    | Graphical representation (pie or radar chart).        |
-| 🔔 Daily Routine Alerts   | Reminder notifications for dinacharya.                |
-| 🌍 Multi-Language Support | English, Hindi, and regional language options.        |
-| 🤖 AI Recommendations     | Smart suggestions for mood and activity tracking.     |
+| **Feature**            | **Description**                                       |
+| ---------------------- | ----------------------------------------------------- |
+| Personalized Tips      | Lifestyle, food, and yoga suggestions for each dosha. |
+| Downloadable Plan      | Export user’s wellness summary as a PDF.              |
+| Dosha Balance Chart    | Graphical representation (pie or radar chart).        |
+| Daily Routine Alerts   | Reminder notifications for dinacharya.                |
+| Multi-Language Support | English, Hindi, and regional language options.        |
+| AI Recommendations     | Smart suggestions for mood and activity tracking.     |
 
 Conclusion
 The Ayurvedic Prakriti Analyzer bridges ancient wellness science with modern digital design.
