@@ -4,15 +4,15 @@ Ayurvedic Prakriti Analyzer is an interactive React-based wellness platform that
 
 It beautifully merges **ancient Indian health science** with **modern UI/UX design**, using animations, color psychology, and seamless navigation to create a calm, mindful user experience.
 
-Objective
-
+Objective:
 To create an intuitive digital platform that allows users to:
 - Learn about Ayurveda and the **Five Elements** (*Pancha Mahabhutas*).  
 - Discover their **Prakriti type** (Vata, Pitta, or Kapha) through a personalized quiz.  
 - Understand **character traits, lifestyle balance, and strengths**.  
 - Experience an elegant interface with motion-based storytelling.
 
-Core Features
+
+Core Features:
 
 1. Prakriti Assessment (Quiz)
 - Interactive **multiple-choice questionnaire** based on physical, mental, and lifestyle traits.  
@@ -57,6 +57,7 @@ Tech Stack
 | **Deployment (Optional)** | Vercel / GitHub Pages                                                                          |
 
 
+
 System Module
 
 | **Module**             | **Description**                                                                                                                                   |
@@ -67,6 +68,8 @@ System Module
 | **Result Dashboard**   | Dynamically displays the user’s Prakriti type with visual animations, score breakdowns, and navigation buttons for retake or learn more.          |
 | **Navigation Module**  | Provides smooth transitions across **Home**, **Ayurveda**, **Doshas**, **Quiz**, and **About** pages using React Router DOM and React Scroll.     |
 | **UI/Animation Layer** | Enhances overall user experience with **Framer Motion** animations such as fade, slide, and scale effects for a fluid visual flow.                |
+
+
 
 
 Key Screens
@@ -80,7 +83,9 @@ Key Screens
 | **Result Page**   | Displays the user’s dominant dosha (Vata, Pitta, or Kapha) with animations, background color change, and score summary. |
 | **About Page**    | Provides the historical, philosophical, and holistic background of Ayurveda with elegant visuals.                       |
 
-Installation & Setup
+
+
+Installation & Setup:
 
 1️⃣ Clone the repository  
 git clone https://github.com/<your-username>/Ayurvedic-Prakriti-Analyzer.git
@@ -97,6 +102,8 @@ http://localhost:3000
 4️⃣ Build for production
 npm run build
 
+
+
 Future Enhancements
 
 | **Feature**            | **Description**                                       |
@@ -108,12 +115,16 @@ Future Enhancements
 | Multi-Language Support | English, Hindi, and regional language options.        |
 | AI Recommendations     | Smart suggestions for mood and activity tracking.     |
 
+
+
 Conclusion
 
 The Ayurvedic Prakriti Analyzer bridges ancient wellness science with modern digital design.
 It is not just a web app — it’s a journey of self-awareness, empowering users to live in harmony with their natural constitution.
 
 “Health is a state of harmony between body, mind, and environment.” – Ayurveda
+
+
 
 License
 
