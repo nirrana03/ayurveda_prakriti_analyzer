@@ -27,7 +27,7 @@ To create an intuitive digital platform that allows users to:
 
 ## Core Features
 
-###  Prakriti Assessment (Quiz)
+### 1. Prakriti Assessment (Quiz)
 - Interactive **multiple-choice questionnaire** based on physical, mental, and lifestyle traits.  
 - Smooth animated transitions built with **Framer Motion**.  
 - **Algorithm-based scoring** to identify dominant dosha.  
@@ -35,14 +35,14 @@ To create an intuitive digital platform that allows users to:
 
 ---
 
-### Ayurveda Section
+### 2. Ayurveda Section
 - Explains **Ayurveda’s five foundational elements** – Earth, Water, Fire, Air, and Ether.  
 - Full-width layout with **animated element cards** and calm earthy tones.  
 - Simple, educational, and responsive UI design.
 
 ---
 
-### Doshas Section
+### 3. Doshas Section
 - Richly designed **zig-zag layout** showing Vata, Pitta, and Kapha.  
 - Alternating content–image alignment for an engaging scroll pattern.  
 - Each dosha highlighted with its **own color theme** (sky blue, amber, green).  
@@ -50,7 +50,7 @@ To create an intuitive digital platform that allows users to:
 
 ---
 
-### Result Dashboard
+### 4. Result Dashboard
 - Animated results with **background color changing** dynamically based on dosha.  
 - Displays **dominant Prakriti**, score distribution, and result explanation.  
 - **Buttons** for “Retake Quiz” and “Learn More”.  
@@ -58,7 +58,7 @@ To create an intuitive digital platform that allows users to:
 
 ---
 
-### Smooth Navigation
+### 5. Smooth Navigation
 - Navbar links for **Home**, **Ayurveda**, **Doshas**, **Quiz**, and **About**.  
 - **React Scroll** for smooth in-page navigation.  
 - Component reusability – same sections appear on both **Home** and dedicated pages.  
@@ -112,18 +112,22 @@ To create an intuitive digital platform that allows users to:
 ```bash
 git clone https://github.com/<your-username>/Ayurvedic-Prakriti-Analyzer.git
 cd Ayurvedic-Prakriti-Analyzer
----
+```
 ### 2️⃣ Install Dependencies
 ```bash
 npm install
-
+```
 3️⃣ Run the Development Server
+```bash
 npm start
+```
 ##The app will start at:
 http://localhost:3000
 
 4️⃣ Build for Production
+```bash
 npm run build
+```
 
 
 ## Future Enhancements
